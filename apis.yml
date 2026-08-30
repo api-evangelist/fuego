@@ -48,7 +48,7 @@ tags:
 - Enterprise Software
 - Business Process Management
 - BPM
-- Service-Oriented Architecture
+- Service Oriented Architecture
 - Acquired
 - Defunct
 tags_raw:
@@ -73,3 +73,9 @@ x-enrichment:
   note: Defunct company (FuegoBPM), acquired by BEA Systems 2006 / Oracle 2008; no
     live domain, docs, or API surface found. Identity corrected from real searched
     facts; no artifacts to derive.
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/oracle/
+  name: Oracle
+  x-relationship: acquired
+  x-evidence: "It was backed by Trinity Ventures among others (Series A, 2004) and was acquired by BEA Systems in March 2006, where FuegoBPM became the basis of BEA AquaLogic BPM; BEA was subsequently acquired by Oracle in 2008 and the technology folded i"
