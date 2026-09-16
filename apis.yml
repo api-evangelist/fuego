@@ -23,13 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fuego.png
 name: Fuego
-description: 'Fuego, Inc. (maker of FuegoBPM) was an enterprise business process management
-  (BPM) and service-oriented architecture software company founded circa 1999 in Plano,
-  Texas. It was backed by Trinity Ventures among others (Series A, 2004) and was acquired
-  by BEA Systems in March 2006, where FuegoBPM became the basis of BEA AquaLogic BPM;
-  BEA was subsequently acquired by Oracle in 2008 and the technology folded into the
-  Oracle BPM product line. Fuego no longer exists as an independent company and publishes
-  no live website, developer portal, documentation, or public API surface.'
+description: Fuego, Inc. (maker of FuegoBPM) was an enterprise business process management (BPM) and service-oriented
+  architecture software company founded circa 1999 in Plano, Texas. It was backed by Trinity Ventures
+  among others (Series A, 2004) and was acquired by BEA Systems in March 2006, where FuegoBPM became the
+  basis of BEA AquaLogic BPM; BEA was subsequently acquired by Oracle in 2008 and the technology folded
+  into the Oracle BPM product line. Fuego no longer exists as an independent company and publishes no
+  live website, developer portal, documentation, or public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/fuego/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,12 +36,12 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: BEA Systems (2006), later Oracle (2008)
 x-defunct: true
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Enterprise Software
@@ -69,12 +68,13 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
-  note: Defunct company (FuegoBPM), acquired by BEA Systems 2006 / Oracle 2008; no
-    live domain, docs, or API surface found. Identity corrected from real searched
-    facts; no artifacts to derive.
+  note: Defunct company (FuegoBPM), acquired by BEA Systems 2006 / Oracle 2008; no live domain, docs,
+    or API surface found. Identity corrected from real searched facts; no artifacts to derive.
 common:
 - type: ParentCompany
   url: https://apis.io/providers/oracle/
   name: Oracle
   x-relationship: acquired
-  x-evidence: "It was backed by Trinity Ventures among others (Series A, 2004) and was acquired by BEA Systems in March 2006, where FuegoBPM became the basis of BEA AquaLogic BPM; BEA was subsequently acquired by Oracle in 2008 and the technology folded i"
+  x-evidence: It was backed by Trinity Ventures among others (Series A, 2004) and was acquired by BEA
+    Systems in March 2006, where FuegoBPM became the basis of BEA AquaLogic BPM; BEA was subsequently
+    acquired by Oracle in 2008 and the technology folded i
